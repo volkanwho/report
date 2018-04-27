@@ -1,0 +1,8 @@
+curl https://api.data.world/v0/datasets/<volkan>/<report>/files \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer <eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJwcm9kLXVzZXItY2xpZW50OnZvbGthbiIsImlzcyI6ImFnZW50OnZvbGthbjo6OTUxY2Y2ZWYtMDJlMS00ZjYzLWJiYzAtMjg5MTcyMDU4ZDY0IiwiaWF0IjoxNTI0NTc4MTQ2LCJyb2xlIjpbInVzZXJfYXBpX3JlYWQiLCJ1c2VyX2FwaV93cml0ZSJdLCJnZW5lcmFsLXB1cnBvc2UiOnRydWV9.w7ZDLJ6P3u8L1dWo3meaqq3ZqwAC7KtlRK9WiZpWk4H-v1ZAjfmkwxRQXosEFz4uN3ZeOhDSvAhjFdanMeUtDQ>' \
+    --data-binary '{"files": [
+        { "name": "<Volkan>", "source": {"url": "<ttps://raw.githubusercontent.com/volkanwho/report/master/README.md>" }},
+        { "name": "<Volkan2>", "source": {"url": "<ttps://raw.githubusercontent.com/volkanwho/report/master/README.md>" }}
+       ] }'
+      
